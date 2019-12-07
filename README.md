@@ -13,7 +13,7 @@ docker-compose up -d
 
 ### Add a (proxied) webapp
 
-Add the `A` and `AAA` entries in the authoritative DNS server, then run the
+Add the `A` and `AAAA` entries in the authoritative DNS server, then run the
 container with a `docker-compose.yml` file that looks like this:
 
 ``` yml
@@ -85,11 +85,11 @@ get a wildcard certificate in the future.
 > 
 > This program is distributed in the hope that it will be useful, but WITHOUT
 > ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
-> FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for
-> more details.
+> FITNESS FOR A PARTICULAR PURPOSE. See the GNU Affero General Public License
+> for more details.
 > 
-> You should have received a copy of the GNU General Public License along with
-> this program. If not, see <https://www.gnu.org/licenses/>.
+> You should have received a copy of the GNU Affero General Public License
+> along with this program. If not, see <https://www.gnu.org/licenses/>.
 
 ### nginx.tmpl
 
